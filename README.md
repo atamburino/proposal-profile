@@ -1,5 +1,7 @@
 # proposal-profile
 
+## Wireframe
+
 ![Screenshot of my project](./assets/Proposal_PWR_2024.png)
 
 ## Color Palette
