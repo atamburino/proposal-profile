@@ -26,17 +26,13 @@ nav {
     align-items: center;
 }
 
-nav a {
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    margin-right: 20px; /* Space between the link and the next element */
+/* Logo */
+nav img {
+    float: left; /* Float the logo to the left */
+    margin-right: 10px; /* Space between the logo and the text */
 }
 
-nav a:focus {
-    outline: 2px solid #000000; /* Visible focus indicator */
-}
-
+/* Title next to logo */
 .paws-and-whiskers-rescue {
     color: #000000;
     font-family: "Baloo 2", cursive;
@@ -46,7 +42,8 @@ nav a:focus {
     text-align: left;
     display: inline-block;
     vertical-align: top;
-    margin-left: 10px;
+    line-height: 85px; /* Align vertically with the logo */
+    margin-right: auto; /* Allow donate button and avatar to float right */
 }
 
 /* Nav Donate button */
@@ -62,6 +59,7 @@ nav a:focus {
     border: 2px solid transparent;
     border-radius: 9px 9px 9px 9px;
     transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin-right: 10px;
 }
 
 /* Primary button styles */
@@ -85,10 +83,10 @@ nav a:focus {
 }
 
 .avatar {
-    width: 50px; /* Size of the avatar */
+    width: 50px;
     height: 50px;
-    border-radius: 50%; /* Make the avatar circular */
-    border: 2px solid #333; /* Optional: Add a border around the avatar */
+    border-radius: 50%;
+    float: right; /* Float the avatar to the right */
 }
 
 
