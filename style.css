@@ -76,12 +76,28 @@ nav a:focus {
     border-color: #F7D08D;
 }
 
+/* Avatar styling */
+.avatar-link {
+    position: absolute; /* Position the avatar container */
+    top: 10px; /* Position 10px from the top */
+    right: 20px; /* Position 20px from the right */
+    display: inline-block;
+}
+
+.avatar {
+    width: 50px; /* Size of the avatar */
+    height: 50px;
+    border-radius: 50%; /* Make the avatar circular */
+    border: 2px solid #333; /* Optional: Add a border around the avatar */
+}
+
 
 /* Main Content Styles */
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
     background-color: #FDFAE7; /* Background color for the main content */
 }
 
