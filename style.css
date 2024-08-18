@@ -22,8 +22,7 @@ body {
 nav {
     background-color: #FDFAE7; /* Background color for the nav area */
     padding: 10px 20px;
-    display: flex;
-    align-items: center;
+    position: relative; /* Establish positioning context */
 }
 
 /* Logo */
@@ -43,7 +42,7 @@ nav img {
     display: inline-block;
     vertical-align: top;
     line-height: 85px; /* Align vertically with the logo */
-    margin-right: auto; /* Allow donate button and avatar to float right */
+    margin-right: auto;
 }
 
 /* Nav Donate button */
@@ -59,7 +58,8 @@ nav img {
     border: 2px solid transparent;
     border-radius: 9px 9px 9px 9px;
     transition: background-color 0.3s ease, border-color 0.3s ease;
-    margin-right: 10px;
+    margin-right: 10px; /* Space between button and the avatar */
+    float: right; /* Float the button to the right */
 }
 
 /* Primary button styles */
@@ -75,27 +75,19 @@ nav img {
 }
 
 /* Avatar styling */
-.avatar-link {
-    position: absolute; /* Position the avatar container */
-    top: 10px; /* Position 10px from the top */
-    right: 20px; /* Position 20px from the right */
-    display: inline-block;
-}
-
 .avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     float: right; /* Float the avatar to the right */
+    margin-top: 10px;
 }
-
 
 /* Main Content Styles */
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
     background-color: #FDFAE7; /* Background color for the main content */
 }
 
@@ -146,12 +138,14 @@ footer {
         font-size: 28px; /* Adjust font size for readability */
     }
 
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
+    nav img, .btn, .avatar {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
     }
 
-    nav a {
-        margin-bottom: 10px;
+    nav {
+        text-align: center; /* Center content on smaller screens */
     }
 }
