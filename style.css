@@ -1,0 +1,115 @@
+/* Reset or Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400&display=swap');
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Fallback font */
+    line-height: 1.6;
+    color: #333;
+    background-color: #FDFAE7; /* Adjust to your background preference */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #FDFAE7; /* Background color for the nav area */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    margin-right: 20px; /* Space between the link and the next element */
+}
+
+nav a:focus {
+    outline: 2px solid #000000; /* Visible focus indicator */
+}
+
+.paws-and-whiskers-rescue {
+    color: #000000;
+    font-family: "Baloo 2", cursive;
+    font-weight: 400;
+    font-size: 33px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FDFAE7; /* Background color for the main content */
+}
+
+.profile-about-me-upper img {
+    width: 100%; /* Ensure the image scales within its container */
+    max-width: 454px; /* TODO: need to review best practice -- May drop this constraint*/
+    border-radius: 8px;
+}
+
+.profile-about-me-upper h1 {
+    font-family: "Helvetica"; /* TODO: Add fallback font */
+    font-size: 40px;
+    margin: 20px 0;
+    color: #1F140A;
+}
+
+.profile-about-me-upper p {
+    font-size: 18px;
+}
+
+.profile-about-me-lower p {
+    font-family: "Helvetica"; /* TODO: Add fallback font */
+    font-size: 16px;
+    margin-top: 10px;
+    color: #1F140A;
+}
+
+.decorative-bar {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .paws-and-whiskers-rescue {
+        width: 100%; /* Full width on smaller screens */
+        font-size: 28px; /* Adjust font size for readability */
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+}
