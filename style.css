@@ -49,6 +49,34 @@ nav a:focus {
     margin-left: 10px;
 }
 
+/* Nav Donate button */
+.btn {
+    width: 120px;
+    height: 48px;
+    display: inline-block;
+    padding: 0px 16px 0px 16px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 9px 9px 9px 9px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Primary button styles */
+.btn-primary {
+    background-color: #F8A862;
+    color: #1F140A;
+    border-color: #F8A862;
+}
+
+.btn-primary:hover {
+    background-color: #F7D08D;
+    border-color: #F7D08D;
+}
+
+
 /* Main Content Styles */
 main {
     padding: 20px;
