@@ -25,6 +25,26 @@ nav {
     position: relative; /* Establish positioning context */
 }
 
+/* Navigation Links Styling */
+.nav-links li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Hide the menu by default */
+.nav-links {
+    display: none;
+}
+
 /* Logo */
 nav img {
     float: left; /* Float the logo to the left */
@@ -82,6 +102,61 @@ nav img {
     border-radius: 50%;
     float: right; /* Float the avatar to the right */
     margin-top: 10px;
+}
+
+/* Hamburger Icon */
+.menu-icon {
+    display: block;
+    width: 30px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.menu-icon span {
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 100%;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+/* Hide the checkbox input */
+#menu-toggle {
+    display: none;
+}
+
+/* Show menu when checkbox is checked */
+#menu-toggle:checked + .menu-icon + .nav-links {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    z-index: 1;
+}
+
+/* Animated Hamburger */
+#menu-toggle:checked + .menu-icon span:nth-child(1) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 8px;
+}
+
+#menu-toggle:checked + .menu-icon span:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked + .menu-icon span:nth-child(3) {
+    transform: rotate(45deg);
+    position: relative;
+    top: -8px;
 }
 
 /* Main Content Styles */
