@@ -1,0 +1,58 @@
+/* Reset or Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400&display=swap');
+
+/* Global Styles */
+body {
+    height: 100%;
+    font-family: Arial, sans-serif; /* Fallback font */
+    line-height: 1.6;
+    color: #333;
+    background-color: #FDFAE7; /* Adjust to your background preference */
+    margin: 0;
+    padding: 0;
+}
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FDFAE7; /* Background color for the main content */
+}
+
+.profile-about-me-upper img {
+    width: 100%; /* Ensure the image scales within its container */
+    max-width: 454px; /* TODO: need to review best practice -- May drop this constraint*/
+    border-radius: 8px;
+}
+
+.profile-about-me-upper h1 {
+    font-family: "Helvetica"; /* TODO: Add fallback font */
+    font-size: 40px;
+    margin: 20px 0;
+    color: #1F140A;
+}
+
+.profile-about-me-upper p {
+    font-size: 18px;
+}
+
+.profile-about-me-lower p {
+    font-family: "Helvetica"; /* TODO: Add fallback font */
+    font-size: 16px;
+    margin-top: 10px;
+    color: #1F140A;
+}
+
+.decorative-bar {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0;
+}
