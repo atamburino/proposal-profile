@@ -28,22 +28,31 @@ nav {
 
 /* Navigation Links Styling */
 .nav-links li {
-    list-style: none;
-    margin: 10px 0;
+    display: inline-block; /* Display links inline horizontally */
+    margin: 0 15px; /* Space between each link */
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
-    padding: 10px 0;
-    text-align: center;
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underlines from links */
+    font-size: 18px; /* Font size for the links */
+    display: block; /* Make each link a block element */
+    padding: 10px 0; /* Padding around each link */
+    text-align: right; /* Ensure the text inside each link is right-aligned */
 }
 
 /* Hide the menu by default */
 .nav-links {
     display: none;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+    right: 0; 
+    background-color: #333; 
+    z-index: 1;
+    text-align: right; 
+    width: 100%; 
 }
 
 /* Logo */
@@ -319,6 +328,26 @@ footer p {
     padding-top: 10px; 
 }
 
+.footer-links li:nth-child(1) a::before {
+    content: "\f0e0";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 8px;
+}
+
+.footer-links li:nth-child(2) a::before {
+    content: "\f15c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 8px;
+}
+
+.footer-links li:nth-child(3) a::before {
+    content: "\f06e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900; 
+    margin-right: 8px;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
