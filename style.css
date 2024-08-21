@@ -198,6 +198,52 @@ main {
     margin: 20px 0;
 }
 
+/* Sponsors Section */
+.sponsors {
+    text-align: center; /* Center the content */
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.sponsors h2 {
+    color: #000000;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.sponsors nav {
+    display: inline-block; /* Center the navigation block */
+}
+
+.sponsors ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center-align the list items */
+}
+
+.sponsors li {
+    display: inline-block; /* Keep logos inline */
+    margin: 0 10px; /* Space between the list items */
+}
+
+.sponsors a {
+    transition: transform 0.3s ease;
+}
+
+.sponsors a:hover img {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
+.sponsors img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 /* Footer Styles */
 footer {
     background-color: #333;
