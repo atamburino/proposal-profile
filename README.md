@@ -2,7 +2,7 @@
 
 ## Wireframe
 
-![Screenshot of my project](./assets/Proposal_PWR_2024.png)
+![Wireframe](./assets/ClientFiles/Proposal_PWR_2024.png
 
 ## Color Palette
 
@@ -17,7 +17,7 @@
 
 ---
 
-![Screenshot of my project](./assets/Option_1_Purple.png)
+![Option 1](./assets/ClientFiles/Option_1_Purple.png)
 
 ### Set 2
 
@@ -30,4 +30,4 @@
 
 ---
 
-![Screenshot of my project](./assets/Option_2_Pink_Blue.png)
+![Option 2](./assets/ClientFiles/Option_2_Pink_Blue.png)
