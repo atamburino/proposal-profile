@@ -1,6 +1,6 @@
 /* Footer Styling */
 footer {
-  background-color: #2C3E50;
+  background-color: #410078;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -8,7 +8,7 @@ footer {
 
 footer nav {
   margin-bottom: 10px;
-  background-color: #2C3E50;
+  background-color: #410078;
 }
 
 .footer-links {
@@ -23,15 +23,17 @@ footer nav {
 }
 
 .footer-links a {
-  color: #fff;
+  color: #F8F8F8;
   text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 3px 5px;
+}
+.footer-links a:hover {
+  color: #410078;
+  background-color: #F8F8F8; 
+  border-radius: 4px;
 }
 
-.footer-links a:hover {
-  color: #f8a862; /* Change color on hover */
-}
 
 footer p {
   font-size: 14px;

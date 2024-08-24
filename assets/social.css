@@ -14,13 +14,17 @@
 }
 
 .social-icons a {
-  color: #fff;
   font-size: 24px;
-  transition: color 0.3s ease;
+  color: #F8F8F8;
+  text-decoration: none;
+  padding: 3px 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #f8a862;
+  color: #410078;
+  background-color: #F8F8F8; 
+  border-radius: 4px;
 }
 
 .social-icons img {

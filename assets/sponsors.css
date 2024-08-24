@@ -34,6 +34,7 @@
 
 .sponsors a:hover img {
   transform: scale(1.1); /* Slightly enlarge the logo on hover */
+  box-shadow: 4px 4px 4px 0px #780BD1; /* Add a violet underline */
 }
 
 .sponsors img {
