@@ -2,7 +2,7 @@
 
 ## Wireframe
 
-![Wireframe](./assets/ClientFiles/Proposal_PWR_2024.png
+![Wireframe](./assets/ClientFiles/Proposal_PWR_2024.png)
 
 ## Color Palette
 
