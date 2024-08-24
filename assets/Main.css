@@ -13,7 +13,7 @@ body {
   height: 100%;
   font-family: Arial, sans-serif; /* Fallback font */
   line-height: 1.6;
-  color: #333;
+  color: #2C2C2C;
   background-color: #f8f8f8; /* Adjust to your background preference */
   margin: 0;
   padding: 0;
@@ -55,6 +55,7 @@ main {
 .pet-details p {
   margin-bottom: 5px;
   font-size: 18px;
+  color: #2C2C2C;
 }
 
 .pet-details button {
@@ -64,25 +65,26 @@ main {
 
 .profile-about-me-upper p {
   font-size: 18px;
+  
 }
 
 .profile-about-me-lower h1 {
   font-family: "Helvetica"; /* TODO: Add fallback font */
   font-size: 40px;
   margin: 20px 0;
-  color: #2b2b2b;
+  color: #2C2C2C;
 }
 
 .profile-about-me-lower p {
   font-family: "Helvetica"; /* TODO: Add fallback font */
   font-size: 16px;
   margin-top: 10px;
-  color: #2b2b2b;
+  color: #2C2C2C;
 }
 
 .decorative-bar {
   border: none;
   height: 2px;
-  background-color: #1e90ff;
+  background-color: #410078;
   margin: 20px 0;
 }

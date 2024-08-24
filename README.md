@@ -6,11 +6,28 @@
 
 ## Color Palette
 
+### Set 1
+
 | Color Name           | Color Sample                                                                                     | Hex Code  |
 |----------------------|--------------------------------------------------------------------------------------------------|-----------|
-| **Primary Color**     | ![#F8A862](https://via.placeholder.com/15/F8A862/F8A862.png) Sandy Brown                       | `#F8A862` |
-| **Secondary Color**   | ![#F7D08D](https://via.placeholder.com/15/F7D08D/F7D08D.png) Sunset                             | `#F7D08D` |
-| **Page Background**   | ![#FDFAE7](https://via.placeholder.com/15/FDFAE7/FDFAE7.png) Ivory                               | `#FDFAE7` |
-| **Text Color**        | ![#1F140A](https://via.placeholder.com/15/1F140A/1F140A.png) Licorice                            | `#1F140A` |
+| **Primary Color**   | ![#780BD1](https://via.placeholder.com/15/780BD1/780BD1.png) French Violet                       | `#780BD1` |
+| **Secondary Color**     | ![#410078](https://via.placeholder.com/15/410078/410078.png) Indigo                             | `#410078` |
+| **Page Background**   | ![#F8F8F8](https://via.placeholder.com/15/F8F8F8/F8F8F8.png) Light Grayish White               | `#F8F8F8` |
+| **Text Color**        | ![#2C2C2C](https://via.placeholder.com/15/2C2C2C/2C2C2C.png) Dark Charcoal                     | `#2C2C2C` |
 
-![Screenshot of my project](./assets/Animal_Profile_Colors.png)
+---
+
+![Screenshot of my project](./assets/Option_1_Purple.png)
+
+### Set 2
+
+| Color Name           | Color Sample                                                                                     | Hex Code  |
+|----------------------|--------------------------------------------------------------------------------------------------|-----------|
+| **Primary Color**     | ![#FF69B4](https://via.placeholder.com/15/FF69B4/FF69B4.png) Hot Pink                          | `#FF69B4` |
+| **Secondary Color**   | ![#1E90FF](https://via.placeholder.com/15/1E90FF/1E90FF.png) Dodger Blue                       | `#1E90FF` |
+| **Page Background**   | ![#F8F8F8](https://via.placeholder.com/15/F8F8F8/F8F8F8.png) Light Grayish White               | `#F8F8F8` |
+| **Text Color**        | ![#2B2B2B](https://via.placeholder.com/15/2B2B2B/2B2B2B.png) Deep Charcoal                     | `#2B2B2B` |
+
+---
+
+![Screenshot of my project](./assets/Option_2_Pink_Blue.png)
