@@ -133,7 +133,6 @@ nav img {
   display: block;
   position: absolute;
   top: 100%; /* Position the menu right below the menu icon */
-  left: 0;
   width: 200px;
   background-color: #333;
   padding: 10px;
