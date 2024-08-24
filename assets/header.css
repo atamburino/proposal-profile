@@ -1,6 +1,6 @@
 /* Navigation Styles */
 nav {
-    background-color: #FDFAE7; /* Background color for the nav area */
+    background-color: #F8F8F8; /* Background color for the nav area */
     padding: 10px 20px;
     position: relative; /* Establish positioning context */
 }
@@ -42,7 +42,7 @@ nav img {
 
 /* Title next to logo */
 .paws-and-whiskers-rescue {
-    color: #000000;
+    color: #FF69B4;
     font-family: "Baloo 2", cursive;
     font-weight: 400;
     font-size: 33px;
@@ -74,14 +74,14 @@ nav img {
 
 /* Primary button styles */
 .btn-primary {
-    background-color: #F8A862;
-    color: #1F140A;
-    border-color: #F8A862;
+    background-color: #FF69B4;
+    color: #2C2C2C;
+    border-color: #FF69B4;
 }
 
 .btn-primary:hover {
-    background-color: #F7D08D;
-    border-color: #F7D08D;
+    background-color: #D856A4;
+    border-color: #D856A4;
 }
 
 /* Avatar styling */
