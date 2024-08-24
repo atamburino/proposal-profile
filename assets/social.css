@@ -1,49 +1,51 @@
 /* Social Icons Styling */
 .social-icons {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 30px 0; 
-    text-align: center; 
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+  text-align: center;
 }
 
 .social-icons li {
-    display: inline-block; 
-    margin: 0 15px; 
-    top: 50%;
-    transform: translateY(+25%); 
+  display: inline-block;
+  margin: 0 15px;
+  top: 50%;
+  transform: translateY(+25%);
 }
 
 .social-icons a {
-    color: #fff; 
-    font-size: 24px; 
-    transition: color 0.3s ease;
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: #F8A862; 
+  color: #f8a862;
 }
 
 .social-icons img {
-    margin-left: 325px;
-    margin-top: 50px; 
-    vertical-align: middle; 
+  margin-left: 325px;
+  margin-top: 50px;
+  vertical-align: middle;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .paws-and-whiskers-rescue {
-        width: 100%; /* Full width on smaller screens */
-        font-size: 28px; /* Adjust font size for readability */
-    }
+  .paws-and-whiskers-rescue {
+    width: 100%; /* Full width on smaller screens */
+    font-size: 28px; /* Adjust font size for readability */
+  }
 
-    nav img, .btn, .avatar {
-        float: none;
-        display: block;
-        margin: 10px auto;
-        text-align: center;
-    }
+  nav img,
+  .btn,
+  .avatar {
+    float: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
 
-    nav {
-        text-align: center; /* Center content on smaller screens */
-    }
+  nav {
+    text-align: center; /* Center content on smaller screens */
+  }
 }
