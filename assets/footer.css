@@ -42,23 +42,30 @@ footer p {
   padding-top: 10px;
 }
 
-.footer-links li:nth-child(1) a::before {
-  content: "\f0e0";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  margin-right: 8px;
+/* Pseudo-Element Lab */
+.footer-links li:nth-child(1) a::before { /* lab */
+  content: "\f0e0"; /* lab */
+  font-family: "Font Awesome 6 Free"; /* lab */
+  font-weight: 900; /* lab */
+  margin-right: 8px; /* lab */
 }
 
-.footer-links li:nth-child(2) a::before {
-  content: "\f15c";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  margin-right: 8px;
+.footer-links li:nth-child(2) a::before { /* lab */
+  content: "\f15c"; /* lab */
+  font-family: "Font Awesome 6 Free"; /* lab */
+  font-weight: 900; /* lab */
+  margin-right: 8px; /* lab */
 }
 
-.footer-links li:nth-child(3) a::before {
-  content: "\f06e";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  margin-right: 8px;
+.footer-links li:nth-child(3) a::before { /* lab */
+  content: "\f06e"; /* lab */
+  font-family: "Font Awesome 6 Free"; /* lab */
+  font-weight: 900; /* lab */
+  margin-right: 8px; /* lab */
+}
+
+mark {
+  background-color: #F8F8F8; 
+  padding: 2px; 
+  border-radius: 4px;
 }
